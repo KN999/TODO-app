@@ -15,7 +15,7 @@ function newTodo() {
   //creating a li
   var li = document.createElement("li");
   //appending a string to li
-  li.innerHTML = "<input type='checkbox' class='myCheck' onClick='check()' ><input type='text'>" 
+  li.innerHTML = "<input type='checkbox' class='myCheck' onClick='check()'><input type='text'>"
   li.setAttribute("class", "List");
   //appending that list to ul 
   list.appendChild(li);
