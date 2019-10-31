@@ -24,14 +24,14 @@ ul {
   z-index: 0;
   /* border: 2px solid green; */
   background-color: #3a3e4e;
-  margin: 0 auto;
+  margin: auto auto;
   text-align: center;
 }
 
 .container .box::before {
   content: '';
   position: absolute;
-  top: -0.1em;
+  top: 3.5em;
   left: -0.1em;
   right: -0.1em;
   bottom: -0.1em;
@@ -42,6 +42,7 @@ ul {
 }
 
 .title {
+  width: 100%;
   text-transform: uppercase;
   padding: 0.6em;
   color: #fff;
@@ -49,7 +50,7 @@ ul {
   background: linear-gradient(to left, #d578e6 0%, #985eff 74%);
 }
 
-.title::before {
+/* .title::before {
   content: '';
   position: absolute;
   width: 1em;
@@ -70,14 +71,14 @@ ul {
   width: 1em;
   z-index: -1;
   height: 3em;
-  top:0;
-  left: 10em;
+  top: 0;
+  left: 40.5em;
   right: 0.1em;
   bottom: 0.1em;
   border-radius: 0 5px 0 0;
   transform: skew(2deg, 20deg);
-  background: #985eff;
-}
+  background: #985eff; 
+} */
 
 .controls {
   margin: 3em auto 2em;
@@ -143,46 +144,3 @@ ul li input[type = "text"] {
   border-radius: 6px;
 }
 
-/*
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  height: 100vh;
-}
-
-.title, .controls, .button {
-  flex: none;
-}
-
-.button {
-  padding: 10px 20px;
-}
-
-.todo-list {
-  flex: 1 1 0;
-  margin-top: 20px;
-  padding: 20px;
-  overflow-y: auto;
-}
-
-.todo-delete {
-  margin: 10px;
-}
-
-.todo-checkbox {
-  margin: 10px;
-}
-
-.todo-container {
-  padding: 20px;
-  border-bottom: 1px solid #333;
-}
-
-.todo-container:first-of-type {
-  border-top: 1px solid #333;
-} */
